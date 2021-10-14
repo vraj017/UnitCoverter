@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                Toast.makeText(getApplicationContext(),"Hello Javatpoint",Toast.LENGTH_SHORT).show();
+//                Toast.makeText(getApplicationContext(),"Hello Javapoint",Toast.LENGTH_SHORT).show();
                 String s = edittext.getText().toString();
                int Kg =   Integer.parseInt(s);
                Double  pound = 2.205 * Kg;
